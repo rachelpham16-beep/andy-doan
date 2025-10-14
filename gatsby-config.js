@@ -3,7 +3,7 @@ module.exports = {
         title: "Quarkly gatsby project",
         description: "",
         author: "@Rachel Pham",
-        siteUrl: "www.andydoanut.com"
+        siteUrl: "https://www.andydoanut.com"
     },
     plugins: [
         "gatsby-plugin-react-helmet",
