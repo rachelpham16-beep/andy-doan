@@ -11,9 +11,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				andy doan
+				ANDY DOAN | PHOTOGRAPHY
 			</title>
-			<meta name={"description"} content={"photography portfolio"} />
+			<meta name={"description"} content={"PHOTOGRAPHY PORTFOLIO"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/logo.png?v=2025-10-03T14:17:11.831Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
@@ -1730,6 +1730,7 @@ export default (() => {
 					showFullImage={false}
 					phone-width="100%"
 					phone-height="auto"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 1"
@@ -1739,6 +1740,7 @@ export default (() => {
 					phone-width="100%"
 					phone-height="auto"
 					previewLoading="eager"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 2"
@@ -1748,6 +1750,10 @@ export default (() => {
 					phone-width="100%"
 					phone-height="auto"
 					previewLoading="eager"
+					phone-grid-column="auto"
+					phone-grid-row="auto"
+					phone-grid-area="auto / auto"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 3"
@@ -2060,6 +2066,7 @@ export default (() => {
 				previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036279/IMG_4207_fpnkqa.jpg"
 				previewObjectFit="cover"
 				fullLoading="eager"
+				phone-position="static"
 			/>
 			<Override
 				slot="quarklycommunityKitGalleryOverride1"
@@ -2073,6 +2080,7 @@ export default (() => {
 				rowsNumb="1"
 				previewObjectPosition="100% 90%"
 				fullLoading="eager"
+				phone-position="static"
 			/>
 			<Override
 				slot="quarklycommunityKitGalleryOverride2"
@@ -2082,6 +2090,7 @@ export default (() => {
 				phone-grid-area="auto / auto"
 				phone-grid-row="auto"
 				fullLoading="eager"
+				phone-position="static"
 			/>
 			<Override
 				slot="quarklycommunityKitGallery"
@@ -3236,6 +3245,7 @@ export default (() => {
 				phone-grid-column="auto"
 				phone-grid-row="auto"
 				phone-grid-area="auto / auto"
+				phone-display="flex"
 			>
 				<Override
 					slot="Item 0"
@@ -3685,12 +3695,14 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-display="grid"
 			phone-width="100%"
 			phone-height="auto"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="none"
+			phone-min-width="none"
+			phone-min-height="none"
+			phone-display="grid"
 		>
 			<Override
 				slot="button"
@@ -4085,6 +4097,10 @@ export default (() => {
 					showFullImage={false}
 					phone-width="100%"
 					phone-height="auto"
+					phone-grid-column="span 1"
+					phone-grid-row="span 1"
+					phone-grid-area="span 1 / span 1"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 1"
@@ -4094,6 +4110,10 @@ export default (() => {
 					phone-width="100%"
 					phone-height="auto"
 					previewLoading="eager"
+					phone-grid-column="span 1"
+					phone-grid-row="span 1"
+					phone-grid-area="span 1 / span 1"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 2"
@@ -4103,6 +4123,10 @@ export default (() => {
 					phone-width="100%"
 					phone-height="auto"
 					previewLoading="eager"
+					phone-grid-column="span 1"
+					phone-grid-row="span 1"
+					phone-grid-area="span 1 / span 1"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 3"
@@ -4464,7 +4488,7 @@ export default (() => {
 			quarkly-title="Gridstructurephone"
 			tablet-display="none"
 		>
-			<Override slot="quarklycommunityKitGalleryOverride" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg" />
+			<Override slot="quarklycommunityKitGalleryOverride" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg" phone-position="static" />
 			<Override
 				slot="quarklycommunityKitGalleryOverride1"
 				previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036009/IMG_1706_pgbrjk.jpg"
@@ -4474,6 +4498,7 @@ export default (() => {
 				phone-grid-area="auto / span 2"
 				columsNumb="2"
 				rowsNumb="1"
+				phone-position="static"
 			/>
 			<Override
 				slot="quarklycommunityKitGalleryOverride2"
@@ -4482,6 +4507,7 @@ export default (() => {
 				phone-grid-column="inherit"
 				phone-grid-area="auto / auto"
 				phone-grid-row="auto"
+				phone-position="static"
 			/>
 			<Override
 				slot="quarklycommunityKitGallery"
@@ -4679,11 +4705,11 @@ export default (() => {
 			min-width="100px"
 			min-height="100px"
 			phone-display="grid"
-			phone-width="100%"
 			phone-height="auto"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="none"
+			phone-width="100%"
 		>
 			<Override
 				slot="button"
@@ -4970,90 +4996,6 @@ export default (() => {
 						</Box>
 					</Box>
 				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					smallPhone-width="33%"
-					smallPhone-height="100%"
-					smallPhone-min-width={0}
-					smallPhone-min-height={0}
-					smallPhone-display="flex"
-					smallPhone-margin="0px 2px 0px 2px"
-					phone-width="33%"
-					phone-height="auto"
-					phone-min-width={0}
-					phone-min-height={0}
-					tablet-width="25%"
-				>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						smallPhone-min-width={0}
-						smallPhone-min-height={0}
-						smallPhone-width="50%"
-						smallPhone-height="100%"
-						smallPhone-display="grid"
-						smallPhone-justify-content="flex-start"
-						smallPhone-flex-direction="row"
-						smallPhone-align-content="end"
-						phone-width="50%"
-						phone-height="auto"
-						phone-min-width={0}
-						phone-min-height={0}
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							smallPhone-width="100%"
-							smallPhone-height="100%"
-							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-							smallPhone-text-transform="uppercase"
-							smallPhone-color="#ffffff"
-							smallPhone-display="block"
-						>
-							kodak black
-						</Text>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						smallPhone-min-width={0}
-						smallPhone-min-height={0}
-						smallPhone-width="50%"
-						smallPhone-height="100%"
-						smallPhone-display="grid"
-						smallPhone-justify-items="end"
-						phone-width="50%"
-						phone-height="auto"
-						phone-min-width={0}
-						phone-min-height={0}
-					>
-						<Box
-							min-width="100px"
-							min-height="100px"
-							smallPhone-min-width={0}
-							smallPhone-min-height={0}
-							smallPhone-width="50%"
-							smallPhone-height="100%"
-							smallPhone-display="grid"
-							smallPhone-flex-direction="row"
-							smallPhone-align-content="end"
-							smallPhone-justify-items="end"
-						>
-							<Text
-								margin="0px 0px 0px 0px"
-								smallPhone-width="100%"
-								smallPhone-height="100%"
-								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-								smallPhone-text-transform="uppercase"
-								smallPhone-color="#ffffff"
-								smallPhone-display="block"
-								smallPhone-text-align="right"
-							>
-								2022
-							</Text>
-						</Box>
-					</Box>
-				</Box>
 			</Box>
 			<Components.QuarklycommunityKitGallery
 				bigPhone-display="flex"
@@ -5063,8 +5005,8 @@ export default (() => {
 				loaderFormatProp="all"
 				phone-width="100%"
 				phone-height="auto"
-				phone-grid-column="auto"
-				phone-grid-row="auto"
+				phone-grid-column="auto "
+				phone-grid-row="auto "
 				phone-grid-area="auto / auto"
 			>
 				<Override
@@ -5078,15 +5020,22 @@ export default (() => {
 					showFullImage={false}
 					phone-width="100%"
 					phone-height="auto"
+					phone-grid-column="span 1"
+					phone-grid-row="span 1"
+					phone-grid-area="span 1 / span 1"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 1"
 					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1169_ghpzhl.jpg"
 					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1169_ghpzhl.jpg"
 					showFullImage={false}
-					phone-width="100%"
 					phone-height="auto"
 					previewLoading="eager"
+					phone-grid-column="span 1"
+					phone-grid-row="span 1"
+					phone-grid-area="span 1 / span 1"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 2"
@@ -5096,6 +5045,10 @@ export default (() => {
 					phone-width="100%"
 					phone-height="auto"
 					previewLoading="eager"
+					phone-grid-column="span 1"
+					phone-grid-row="span 1"
+					phone-grid-area="span 1 / span 1"
+					phone-position="static"
 				/>
 				<Override
 					slot="Item 3"

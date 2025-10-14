@@ -10,9 +10,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"sports"} />
 		<Helmet>
 			<title>
-				andy doan
+				ANDY DOAN | PHOTOGRAPHY
 			</title>
-			<meta name={"description"} content={"photography portfolio"} />
+			<meta name={"description"} content={"PHOTOGRAPHY PORTFOLIO"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/logo.png?v=2025-10-03T14:17:11.831Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Destophead />
