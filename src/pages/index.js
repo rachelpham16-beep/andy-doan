@@ -483,13 +483,13 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-display="none"
 			phone-width="100%"
 			phone-height="auto"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="block"
 			tablet-margin="5px 0px 0px 0px"
+			phone-display="none"
 		>
 			<Override
 				slot="button"
@@ -1414,7 +1414,7 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-display="grid"
+			phone-display="inline-block"
 			phone-width="100%"
 			phone-height="auto"
 			phone-align-items="flex-start"
@@ -2059,6 +2059,7 @@ export default (() => {
 			phone-min-width={0}
 			quarkly-title="Gridstructurephone"
 			tablet-display="none"
+			phone-display="block"
 		>
 			<Override
 				slot="quarklycommunityKitGalleryOverride"
@@ -2121,13 +2122,48 @@ export default (() => {
 			<Override slot="button" phone-type="link" phone-href="/portfolio/sports" />
 			<Override slot="box26" />
 			<Override slot="text6">
-				one{" "}
+				eagle stadium{"\n\n"}
+			</Override>
+			<Override slot="text">
+				Eagles vs panthers{"\n\n"}
+			</Override>
+			<Override slot="box3" phone-width="30%" />
+			<Override slot="box2" phone-width="70%" />
+			<Override slot="box16" phone-width="30%" />
+			<Override slot="box15" phone-width="70%" />
+			<Override slot="text7">
+				dal
+			</Override>
+			<Override slot="text8">
+				JOHN CLARK STADIUM{"\n\n"}
+			</Override>
+			<Override slot="text9">
+				dal
+			</Override>
+			<Override slot="text10">
+				Tom Kimbrough STADIUM{"\n\n"}
+			</Override>
+			<Override slot="box24" phone-width="20%" />
+			<Override slot="box23" phone-width="80%" />
+			<Override slot="text4">
+				golden girls
+			</Override>
+			<Override slot="text5">
+				2018
+			</Override>
+			<Override slot="text2">
+				plano vs mustangs{"\n\n"}
+			</Override>
+			<Override slot="text3">
+				2017
+			</Override>
+			<Override slot="text1">
+				2019
 			</Override>
 		</Components.Gridstructure>
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-display="none"
 			phone-width="100%"
 			phone-height="auto"
 			phone-align-items="flex-start"
@@ -2136,6 +2172,7 @@ export default (() => {
 			phone-min-width={0}
 			tablet-display="block"
 			tablet-margin="10px 0px 0px 0px"
+			phone-display="none"
 		>
 			<Override slot="button" phone-type="link" phone-href="/portfolio/sports" />
 			<Box
@@ -2247,8 +2284,17 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								<Strong>
-									2024
+								<Strong
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									2019
 								</Strong>
 							</Text>
 						</Box>
@@ -2295,7 +2341,16 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							<Strong>
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								plano vs mustangs
 							</Strong>
 						</Text>
@@ -2839,12 +2894,12 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-display="none"
 			phone-width="100%"
 			phone-height="auto"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="block"
+			phone-display="none"
 		>
 			<Override
 				slot="button"
@@ -3338,7 +3393,16 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							<Strong>
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								GARDEN OF THE GODS
 							</Strong>
 						</Text>
@@ -3702,7 +3766,6 @@ export default (() => {
 			tablet-display="none"
 			phone-min-width="none"
 			phone-min-height="none"
-			phone-display="grid"
 		>
 			<Override
 				slot="button"
@@ -3775,7 +3838,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							LIL WAYNE
+							landscape
 						</Text>
 					</Box>
 					<Box
@@ -3814,7 +3877,7 @@ export default (() => {
 								smallPhone-display="block"
 								smallPhone-text-align="right"
 							>
-								2024
+								2021
 							</Text>
 						</Box>
 					</Box>
@@ -3859,7 +3922,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							YG
+							brand
 						</Text>
 					</Box>
 					<Box
@@ -3900,7 +3963,7 @@ export default (() => {
 								smallPhone-justify-self="end"
 								smallPhone-text-align="right"
 							>
-								2024
+								2018
 							</Text>
 						</Box>
 					</Box>
@@ -3945,7 +4008,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							GUNNA
+							wedding
 						</Text>
 					</Box>
 					<Box
@@ -3984,91 +4047,7 @@ export default (() => {
 								smallPhone-display="block"
 								smallPhone-text-align="right"
 							>
-								2024
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					smallPhone-width="33%"
-					smallPhone-height="100%"
-					smallPhone-min-width={0}
-					smallPhone-min-height={0}
-					smallPhone-display="flex"
-					smallPhone-margin="0px 2px 0px 2px"
-					phone-width="33%"
-					phone-height="auto"
-					phone-min-width={0}
-					phone-min-height={0}
-					tablet-width="25%"
-				>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						smallPhone-min-width={0}
-						smallPhone-min-height={0}
-						smallPhone-width="50%"
-						smallPhone-height="100%"
-						smallPhone-display="grid"
-						smallPhone-justify-content="flex-start"
-						smallPhone-flex-direction="row"
-						smallPhone-align-content="end"
-						phone-width="50%"
-						phone-height="auto"
-						phone-min-width={0}
-						phone-min-height={0}
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							smallPhone-width="100%"
-							smallPhone-height="100%"
-							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-							smallPhone-text-transform="uppercase"
-							smallPhone-color="#ffffff"
-							smallPhone-display="block"
-						>
-							kodak black
-						</Text>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						smallPhone-min-width={0}
-						smallPhone-min-height={0}
-						smallPhone-width="50%"
-						smallPhone-height="100%"
-						smallPhone-display="grid"
-						smallPhone-justify-items="end"
-						phone-width="50%"
-						phone-height="auto"
-						phone-min-width={0}
-						phone-min-height={0}
-					>
-						<Box
-							min-width="100px"
-							min-height="100px"
-							smallPhone-min-width={0}
-							smallPhone-min-height={0}
-							smallPhone-width="50%"
-							smallPhone-height="100%"
-							smallPhone-display="grid"
-							smallPhone-flex-direction="row"
-							smallPhone-align-content="end"
-							smallPhone-justify-items="end"
-						>
-							<Text
-								margin="0px 0px 0px 0px"
-								smallPhone-width="100%"
-								smallPhone-height="100%"
-								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-								smallPhone-text-transform="uppercase"
-								smallPhone-color="#ffffff"
-								smallPhone-display="block"
-								smallPhone-text-align="right"
-							>
-								2022
+								2025
 							</Text>
 						</Box>
 					</Box>
@@ -4104,8 +4083,8 @@ export default (() => {
 				/>
 				<Override
 					slot="Item 1"
-					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036186/1548141916426_xecqzy.jpg"
-					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036186/1548141916426_xecqzy.jpg"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg"
 					showFullImage={false}
 					phone-width="100%"
 					phone-height="auto"
@@ -4117,8 +4096,8 @@ export default (() => {
 				/>
 				<Override
 					slot="Item 2"
-					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg"
-					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760214142/373A0668_m7xy1x.jpg"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760214142/373A0668_m7xy1x.jpg"
 					showFullImage={false}
 					phone-width="100%"
 					phone-height="auto"
@@ -4172,7 +4151,7 @@ export default (() => {
 						smallPhone-flex-direction="row"
 						smallPhone-align-content="end"
 						smallPhone-margin="0px 0px 0px 2px"
-						phone-width="50%"
+						phone-width="70%"
 						phone-height="auto"
 						phone-min-width={0}
 						phone-min-height={0}
@@ -4186,7 +4165,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							one music fest
+							GARDEN OF THE GODS{"\n\n"}
 						</Text>
 					</Box>
 					<Box
@@ -4199,7 +4178,7 @@ export default (() => {
 						smallPhone-display="grid"
 						smallPhone-justify-items="end"
 						smallPhone-margin="0px 2px 0px 0px"
-						phone-width="50%"
+						phone-width="30%"
 						phone-height="auto"
 						phone-min-width={0}
 						phone-min-height={0}
@@ -4228,7 +4207,7 @@ export default (() => {
 								smallPhone-justify-self="end"
 								smallPhone-text-align="right"
 							>
-								atl
+								cos
 							</Text>
 						</Box>
 					</Box>
@@ -4273,7 +4252,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							lollapalooza
+							graffitti fallas
 						</Text>
 					</Box>
 					<Box
@@ -4347,7 +4326,7 @@ export default (() => {
 						smallPhone-flex-direction="row"
 						smallPhone-align-content="end"
 						smallPhone-margin="0px 0px 0px 2px"
-						phone-width="50%"
+						phone-width="70%"
 						phone-height="auto"
 						phone-min-width={0}
 						phone-min-height={0}
@@ -4362,7 +4341,7 @@ export default (() => {
 							smallPhone-display="block"
 							smallPhone-margin="0px 0px 0px 2px"
 						>
-							twogetherland
+							rockwall courthouse
 						</Text>
 					</Box>
 					<Box
@@ -4375,7 +4354,7 @@ export default (() => {
 						smallPhone-display="grid"
 						smallPhone-justify-items="end"
 						smallPhone-margin="0px 2px 0px 0px"
-						phone-width="50%"
+						phone-width="30%"
 						phone-height="auto"
 						phone-min-width={0}
 						phone-min-height={0}
@@ -4538,6 +4517,39 @@ export default (() => {
 			<Override slot="button" phone-type="link" phone-href="/portfolio/sports" />
 			<Override slot="box26" />
 			<Override slot="box16" phone-width="40%" />
+			<Override slot="text">
+				don toliver
+			</Override>
+			<Override slot="text1">
+				2021
+			</Override>
+			<Override slot="text2">
+				mt fuji
+			</Override>
+			<Override slot="text5">
+				2021
+			</Override>
+			<Override slot="text4" />
+			<Override slot="text10">
+				houston
+			</Override>
+			<Override slot="text11">
+				tx
+			</Override>
+			<Override slot="text8">
+				mount fuji
+			</Override>
+			<Override slot="text9">
+				japan
+			</Override>
+			<Override slot="text6">
+				houston
+			</Override>
+			<Override slot="text7">
+				tx
+			</Override>
+			<Override slot="box15" phone-width="60%" />
+			<Override slot="box13" phone-margin="0px 0px 0 0px" />
 		</Components.Gridstructure>
 		<Components.Gridstructure
 			phone-width="100%"
@@ -4612,7 +4624,9 @@ export default (() => {
 			</Override>
 			<Override slot="text3" tablet-font="100 10px &quot;Azeret Mono&quot;, monospace" />
 			<Override slot="text4" tablet-font="100 10px &quot;Azeret Mono&quot;, monospace" />
-			<Override slot="text5" tablet-font="100 10px &quot;Azeret Mono&quot;, monospace" />
+			<Override slot="text5" tablet-font="100 10px &quot;Azeret Mono&quot;, monospace">
+				2021
+			</Override>
 			<Override slot="text6" tablet-font="100 10px &quot;Azeret Mono&quot;, monospace">
 				<Strong>
 					HOUSTON
@@ -4654,7 +4668,7 @@ export default (() => {
 			phone-align-items="center"
 			phone-justify-items="center"
 			phone-justify-content="center"
-			phone-align-content="start"
+			phone-align-content="center"
 			phone-min-height={0}
 			tablet-margin="5px 0px 5px 0px"
 			desktop-height="75px"
@@ -4662,7 +4676,7 @@ export default (() => {
 		>
 			<LinkBox
 				href="/film"
-				phone-href="/music"
+				phone-href="/film"
 				desktop-background="rgba(255, 255, 255, 0.85)"
 				desktop-height="40px"
 				desktop-width="120px"
@@ -4673,6 +4687,10 @@ export default (() => {
 				desktop-hover-background="rgba(88, 109, 142, 0.76)"
 				desktop-hover-color="#ebebeb"
 				desktop-href="/film"
+				phone-margin="0 0px 0px 0px"
+				phone-justify-content="flex-start"
+				phone-height="auto"
+				phone-padding="0 0px 0px 0px"
 			>
 				<Button
 					phone-background="rgba(0, 119, 204, 0)"
@@ -4680,7 +4698,7 @@ export default (() => {
 					phone-border-color="rgba(255, 255, 255, 0.37)"
 					phone-border-width="0.5px"
 					phone-border-style="solid"
-					phone-padding="4px 10px 4px 10px"
+					phone-padding="3px 9px 3px 9px"
 					phone-border-radius="0px"
 					phone-color="rgba(247, 251, 255, 0.72)"
 					tablet-font="300 10px/100% &quot;Azeret Mono&quot;, monospace"
@@ -4696,6 +4714,8 @@ export default (() => {
 					desktop-hover-color="#ffffff"
 					type="button"
 					desktop-type="link"
+					phone-height="auto"
+					phone-margin="5px 0px 5px 0px"
 				>
 					FILM ›
 				</Button>
@@ -4704,12 +4724,14 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-display="grid"
 			phone-height="auto"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="none"
 			phone-width="100%"
+			phone-min-width={0}
+			phone-min-height={0}
+			phone-display="inline"
 		>
 			<Override
 				slot="button"
@@ -4782,7 +4804,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							LIL WAYNE
+							montana 700
 						</Text>
 					</Box>
 					<Box
@@ -4852,7 +4874,7 @@ export default (() => {
 						smallPhone-justify-content="flex-start"
 						smallPhone-flex-direction="row"
 						smallPhone-align-content="end"
-						phone-width="50%"
+						phone-width="70%"
 						phone-min-width={0}
 						phone-min-height={0}
 						phone-height="auto"
@@ -4866,7 +4888,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							YG
+							music video bts
 						</Text>
 					</Box>
 					<Box
@@ -4878,7 +4900,7 @@ export default (() => {
 						smallPhone-height="100%"
 						smallPhone-display="grid"
 						smallPhone-justify-items="end"
-						phone-width="50%"
+						phone-width="30%"
 						phone-height="auto"
 						phone-min-width={0}
 						phone-min-height={0}
@@ -4952,7 +4974,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							GUNNA
+							bts
 						</Text>
 					</Box>
 					<Box
@@ -5109,7 +5131,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							one music fest
+							south dallas
 						</Text>
 					</Box>
 					<Box
@@ -5151,7 +5173,7 @@ export default (() => {
 								smallPhone-justify-self="end"
 								smallPhone-text-align="right"
 							>
-								atl
+								dal
 							</Text>
 						</Box>
 					</Box>
@@ -5163,11 +5185,12 @@ export default (() => {
 					smallPhone-min-width={0}
 					smallPhone-min-height={0}
 					smallPhone-display="flex"
+					smallPhone-margin="0px 0px 0px 0px"
 					smallPhone-height="10px"
 					phone-width="33%"
-					phone-height="auto"
-					phone-min-height={0}
 					phone-min-width={0}
+					phone-min-height={0}
+					phone-height="auto"
 					tablet-width="25%"
 				>
 					<Box
@@ -5196,7 +5219,7 @@ export default (() => {
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
 						>
-							lollapalooza
+							south dallas
 						</Text>
 					</Box>
 					<Box
@@ -5213,7 +5236,6 @@ export default (() => {
 						phone-height="auto"
 						phone-min-width={0}
 						phone-min-height={0}
-						phone-display="grid"
 					>
 						<Box
 							min-width="100px"
@@ -5239,7 +5261,7 @@ export default (() => {
 								smallPhone-justify-self="end"
 								smallPhone-text-align="right"
 							>
-								la
+								dal
 							</Text>
 						</Box>
 					</Box>
@@ -5251,11 +5273,12 @@ export default (() => {
 					smallPhone-min-width={0}
 					smallPhone-min-height={0}
 					smallPhone-display="flex"
+					smallPhone-margin="0px 0px 0px 0px"
 					smallPhone-height="10px"
 					phone-width="33%"
-					phone-height="auto"
 					phone-min-width={0}
 					phone-min-height={0}
+					phone-height="auto"
 					tablet-width="25%"
 				>
 					<Box
@@ -5283,9 +5306,8 @@ export default (() => {
 							smallPhone-text-transform="uppercase"
 							smallPhone-color="#ffffff"
 							smallPhone-display="block"
-							smallPhone-margin="0px 0px 0px 2px"
 						>
-							twogetherland
+							south dallas
 						</Text>
 					</Box>
 					<Box
@@ -6203,6 +6225,7 @@ export default (() => {
 				desktop-hover-background="rgba(88, 109, 142, 0.76)"
 				desktop-hover-color="#ebebeb"
 				desktop-href="/bts"
+				phone-margin="0px 0px 1px 0px"
 			>
 				<Button
 					phone-background="rgba(0, 119, 204, 0)"
@@ -6210,7 +6233,7 @@ export default (() => {
 					phone-border-color="rgba(255, 255, 255, 0.37)"
 					phone-border-width="0.5px"
 					phone-border-style="solid"
-					phone-padding="4px 10px 4px 10px"
+					phone-padding="4px 10px 3px 10px"
 					phone-border-radius="0px"
 					phone-color="rgba(247, 251, 255, 0.72)"
 					tablet-font="300 10px/100% &quot;Azeret Mono&quot;, monospace"
@@ -6226,6 +6249,7 @@ export default (() => {
 					desktop-hover-color="#ffffff"
 					type="button"
 					desktop-type="link"
+					phone-margin="5px 0px 4px 0px"
 				>
 					BTS ›
 				</Button>
@@ -6288,6 +6312,43 @@ export default (() => {
 			<Override slot="button" phone-type="link" phone-href="/portfolio/sports" />
 			<Override slot="box26" />
 			<Override slot="box16" phone-width="40%" />
+			<Override slot="text">
+				skyline
+			</Override>
+			<Override slot="text1">
+				2022
+			</Override>
+			<Override slot="text2">
+				full moon
+			</Override>
+			<Override slot="text3">
+				2022
+			</Override>
+			<Override slot="text4">
+				kailua{"\n\n"}
+			</Override>
+			<Override slot="text5">
+				2018
+			</Override>
+			<Override slot="text10">
+				sunset beach
+			</Override>
+			<Override slot="text11">
+				hi
+			</Override>
+			<Override slot="text8">
+				dallas
+			</Override>
+			<Override slot="text9">
+				tx
+			</Override>
+			<Override slot="text6">
+				downtown
+			</Override>
+			<Override slot="text7">
+				chi
+			</Override>
+			<Override slot="box15" phone-width="60%" />
 		</Components.Gridstructure>
 		<Components.Gridstructure
 			phone-width="100%"
@@ -6388,6 +6449,8 @@ export default (() => {
 				kailua
 			</Override>
 			<Override slot="box13" tablet-margin="2px 0px 5px 0px" />
+			<Override slot="box16" tablet-width="40%" />
+			<Override slot="box15" tablet-width="60%" />
 		</Components.Gridstructure>
 		<Box
 			min-width="100px"
@@ -6445,7 +6508,13 @@ export default (() => {
 				</Button>
 			</LinkBox>
 		</Box>
-		<Components.Gridstructure phone-width="100%" phone-height="auto" tablet-display="none">
+		<Components.Gridstructure
+			phone-width="100%"
+			phone-height="auto"
+			tablet-display="none"
+			phone-min-width={0}
+			phone-min-height={0}
+		>
 			<Override
 				slot="button"
 				phone-type="link"
@@ -6489,6 +6558,36 @@ export default (() => {
 				previewObjectPosition="7% "
 				previewObjectFit="cover"
 			/>
+			<Override slot="text4">
+				audi
+			</Override>
+			<Override slot="text10">
+				osaka
+			</Override>
+			<Override slot="text11">
+				japan
+			</Override>
+			<Override slot="text2">
+				bmw
+			</Override>
+			<Override slot="text3" />
+			<Override slot="text8">
+				chicago
+			</Override>
+			<Override slot="text9">
+				il
+			</Override>
+			<Override slot="text">
+				classic
+			</Override>
+			<Override slot="text1" />
+			<Override slot="text6">
+				dallas
+			</Override>
+			<Override slot="text7">
+				tx
+			</Override>
+			<Override slot="text5" />
 		</Components.Gridstructure>
 		<Box
 			min-width="100px"
@@ -6572,49 +6671,8 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							LIL WAYNE
+							classic
 						</Text>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						smallPhone-min-width={0}
-						smallPhone-min-height={0}
-						smallPhone-width="50%"
-						smallPhone-height="100%"
-						smallPhone-display="grid"
-						smallPhone-justify-items="end"
-						phone-width="50%"
-						phone-height="auto"
-						phone-min-width={0}
-						phone-min-height={0}
-					>
-						<Box
-							min-width="100px"
-							min-height="100px"
-							smallPhone-min-width={0}
-							smallPhone-min-height={0}
-							smallPhone-width="50%"
-							smallPhone-height="100%"
-							smallPhone-display="grid"
-							smallPhone-flex-direction="row"
-							smallPhone-align-content="end"
-							smallPhone-justify-items="end"
-						>
-							<Text
-								margin="0px 0px 0px 0px"
-								smallPhone-width="100%"
-								smallPhone-height="100%"
-								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-								smallPhone-text-transform="uppercase"
-								smallPhone-color="#ffffff"
-								smallPhone-display="block"
-								smallPhone-text-align="right"
-								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
-							>
-								2024
-							</Text>
-						</Box>
 					</Box>
 				</Box>
 				<Box
@@ -6658,51 +6716,8 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							YG
+							bmw
 						</Text>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						smallPhone-min-width={0}
-						smallPhone-min-height={0}
-						smallPhone-width="50%"
-						smallPhone-height="100%"
-						smallPhone-display="grid"
-						smallPhone-justify-items="end"
-						phone-width="50%"
-						phone-height="auto"
-						phone-min-width={0}
-						phone-min-height={0}
-					>
-						<Box
-							min-width="100px"
-							min-height="100px"
-							smallPhone-min-width={0}
-							smallPhone-min-height={0}
-							smallPhone-width="50%"
-							smallPhone-height="100%"
-							smallPhone-display="grid"
-							smallPhone-justify-content="end"
-							smallPhone-flex-direction="row"
-							smallPhone-align-content="end"
-							smallPhone-text-align="right"
-						>
-							<Text
-								margin="0px 0px 0px 0px"
-								smallPhone-width="100%"
-								smallPhone-height="100%"
-								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-								smallPhone-text-transform="uppercase"
-								smallPhone-color="#ffffff"
-								smallPhone-display="block"
-								smallPhone-justify-self="end"
-								smallPhone-text-align="right"
-								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
-							>
-								2024
-							</Text>
-						</Box>
 					</Box>
 				</Box>
 				<Box
@@ -6746,7 +6761,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							GUNNA
+							audi
 						</Text>
 					</Box>
 					<Box
@@ -6785,9 +6800,7 @@ export default (() => {
 								smallPhone-display="block"
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
-							>
-								2024
-							</Text>
+							/>
 						</Box>
 					</Box>
 				</Box>
@@ -6832,7 +6845,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							kodak black
+							subaru
 						</Text>
 					</Box>
 					<Box
@@ -6860,21 +6873,7 @@ export default (() => {
 							smallPhone-flex-direction="row"
 							smallPhone-align-content="end"
 							smallPhone-justify-items="end"
-						>
-							<Text
-								margin="0px 0px 0px 0px"
-								smallPhone-width="100%"
-								smallPhone-height="100%"
-								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
-								smallPhone-text-transform="uppercase"
-								smallPhone-color="#ffffff"
-								smallPhone-display="block"
-								smallPhone-text-align="right"
-								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
-							>
-								2022
-							</Text>
-						</Box>
+						/>
 					</Box>
 				</Box>
 			</Box>
@@ -6980,7 +6979,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							one music fest
+							dallas
 						</Text>
 					</Box>
 					<Box
@@ -7023,7 +7022,7 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								atl
+								tx
 							</Text>
 						</Box>
 					</Box>
@@ -7069,7 +7068,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							lollapalooza
+							chicago
 						</Text>
 					</Box>
 					<Box
@@ -7113,7 +7112,7 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								la
+								il
 							</Text>
 						</Box>
 					</Box>
@@ -7161,7 +7160,7 @@ export default (() => {
 							smallPhone-margin="0px 0px 0px 2px"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							twogetherland
+							osaka
 						</Text>
 					</Box>
 					<Box
@@ -7204,7 +7203,7 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								dal
+								japan
 							</Text>
 						</Box>
 					</Box>
@@ -7251,7 +7250,7 @@ export default (() => {
 							smallPhone-margin="0px 0px 0px 2px"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							twogetherland
+							corona
 						</Text>
 					</Box>
 					<Box
@@ -7294,7 +7293,7 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								dal
+								ca
 							</Text>
 						</Box>
 					</Box>
@@ -7349,7 +7348,7 @@ export default (() => {
 					phone-border-color="rgba(255, 255, 255, 0.37)"
 					phone-border-width="0.5px"
 					phone-border-style="solid"
-					phone-padding="4px 10px 4px 10px"
+					phone-padding="4px 9px 4px 10px"
 					phone-border-radius="0px"
 					phone-color="rgba(247, 251, 255, 0.72)"
 					tablet-font="300 10px/100% &quot;Azeret Mono&quot;, monospace"
@@ -7399,7 +7398,13 @@ export default (() => {
 			>
 				clients
 			</Text>
-			<Components.QuarklycommunityKitMarquee phone-max-height="50%" phone-height="100px" tablet-width="100%" tablet-height="max-content">
+			<Components.QuarklycommunityKitMarquee
+				phone-max-height="50%"
+				phone-height="100px"
+				tablet-width="100%"
+				tablet-height="max-content"
+				speed="50"
+			>
 				<Override slot="Container" phone-height="100%" tablet-width="100%" tablet-height="100%" />
 				<Image
 					src="https://res.cloudinary.com/dgan17f48/image/upload/v1759087927/7_izc6vp.png"
@@ -7452,7 +7457,14 @@ export default (() => {
 				/>
 			</Components.QuarklycommunityKitMarquee>
 		</Box>
-		<Section background="--color-dark" padding="60px 0" sm-padding="40px 0">
+		<Section
+			background="--color-dark"
+			padding="60px 0"
+			sm-padding="40px 0"
+			phone-height="10px"
+			phone-align-items="center"
+			phone-background="#000000"
+		>
 			<SocialMedia instagram="https://www.instagram.com/andydoanut/" linked-in="https://www.linkedin.com/in/andydoanut/">
 				<Override
 					slot="link"
