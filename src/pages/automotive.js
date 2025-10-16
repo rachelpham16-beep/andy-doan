@@ -24,7 +24,7 @@ export default (() => {
 				borderWidthProp="2"
 				phone-margin="0px 2px 0px 0px"
 			>
-				<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037257/DSCF9279_eqaugt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037257/DSCF9279_eqaugt.jpg" />
+				<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037257/DSCF9279_eqaugt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037257/DSCF9279_eqaugt.jpg" fullLoading="lazy" />
 				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF0473_Original_kzzpyr.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF0473_Original_kzzpyr.jpg" />
 				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF0423_Original_zdrgjc.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF0423_Original_zdrgjc.jpg" />
 			</Components.QuarklycommunityKitGallery>

@@ -250,9 +250,27 @@ export default (() => {
 			padding="64px 0 64px 0"
 			phone-background="#000000"
 			phone-padding="10px 0 64px 0"
+			desktop-justify-content="center"
+			desktop-align-items="center"
+			desktop-align-content="center"
+			desktop-text-align="left"
+			margin="0 0 0 0"
 		>
-			<Override slot="SectionContent" phone-width="100%" phone-padding="0px 20px 0px 20px" />
-			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
+			<Override
+				slot="SectionContent"
+				phone-width="100%"
+				phone-padding="0px 20px 0px 20px"
+				desktop-justify-content="center"
+				desktop-align-items="center"
+				desktop-align-content="center"
+			/>
+			<Box
+				margin="-16px -16px -16px -16px"
+				display="flex"
+				flex-wrap="wrap"
+				desktop-align-items="flex-start"
+				desktop-justify-content="center"
+			>
 				<Box padding="16px 16px 16px 16px" width="50%" lg-width="100%" phone-padding="16px 16px 7px 16px">
 					<Box phone-text-align="left" phone-display="flex" phone-justify-content="center" phone-align-items="center">
 						<Text
