@@ -20,20 +20,20 @@ export default (() => {
 			sm-padding="8px 0 8px 0"
 			quarkly-title="Header-5"
 			height="650px"
-			phone-height="450px"
+			phone-height="300px"
 			tablet-background="rgba(255, 255, 255, 0) url(https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/24_Original.JPG?v=2025-09-27T02:14:54.476Z) 50% 100%/cover"
 			overflow-x="hidden"
 			display="grid"
 			background="rgba(255, 255, 255, 0) url(https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/24_Original.JPG?v=2025-09-27T02:14:54.476Z) 50% 70% /cover repeat scroll"
 			min-height="650px"
 			tablet-height="550px"
-			desktop-height="900px"
+			desktop-height="850px"
 			desktop-min-height="850px"
 			phone-min-height={0}
 			desktop-margin="0 0 0 0"
 			desktop-display="flex"
 			desktop-background="linear-gradient(180deg,rgba(25, 30, 34, 0.63) 0%,transparent 52.4%) 0 0 no-repeat,rgba(255, 255, 255, 0) url(https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/24_Original.JPG?v=2025-09-27T02:14:54.476Z) 50% 60%/cover repeat scroll"
-			phone-background="rgba(255, 255, 255, 0) url(https://res.cloudinary.com/dgan17f48/image/upload/v1760290941/24_Original_nyvily.jpg) 50% 70%/cover no-repeat scroll"
+			phone-background="rgba(255, 255, 255, 0) url(https://res.cloudinary.com/dgan17f48/image/upload/v1760290941/24_Original_nyvily.jpg) 50% 80%/cover no-repeat scroll"
 			phone-padding="0 0 0 0"
 			desktop-overflow-x="hidden"
 			phone-flex-direction="column"
@@ -57,7 +57,7 @@ export default (() => {
 				phone-width="100%"
 				phone-min-height="none"
 				phone-justify-content="space-between"
-				phone-justify-self="stretch"
+				phone-justify-self="auto"
 				tablet-justify-self="center"
 				tablet-min-width={0}
 				tablet-min-height={0}
@@ -92,13 +92,16 @@ export default (() => {
 				tablet-justify-content="flex-start"
 				tablet-width="100%"
 				tablet-flex-direction="row"
+				phone-height="100%"
+				phone-min-height={0}
+				phone-min-width={0}
 			>
 				<LinkBox
 					flex-direction="row"
 					href="/index"
 					display="flex"
 					grid-gap="12px"
-					phone-margin="40px 0px 0px 10px"
+					phone-margin="60px 0px 0px 5px"
 					tablet-margin="10px 0px 0px 20px"
 					desktop-width="35%"
 					desktop-justify-content="flex-start"
@@ -143,7 +146,8 @@ export default (() => {
 					tablet-align-items="flex-end"
 					tablet-align-content="flex-end"
 					tablet-margin="10px 20px 0px 0px"
-					phone-margin="10px 10px 0px 0px"
+					phone-margin="10px 5px 0px 0px"
+					phone-padding="0px 0px 0px 25px"
 				>
 					<Override slot="Button Text" phone-display="none" />
 					<Override
@@ -1034,6 +1038,7 @@ export default (() => {
 				phone-min-height={0}
 				phone-margin="0px 0px 5px 0px"
 				tablet-margin="2px 0px 5px 0px"
+				desktop-margin="2px 0px 10px 0px"
 			>
 				<Box
 					min-width="100px"
@@ -1466,7 +1471,7 @@ export default (() => {
 			min-height="100px"
 			phone-display="grid"
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="none"
@@ -2105,10 +2110,14 @@ export default (() => {
 				phone-min-width={0}
 			/>
 		</Box>
-		<Components.Sectionforbutton phone-margin="5px 0px 5px 0px" />
+		<Components.Sectionforbutton desktop-height="50px">
+			<Override slot="buttonshomepage">
+				<Override slot="button" phone-margin="5px 0px 5px 0px" />
+			</Override>
+		</Components.Sectionforbutton>
 		<Components.Gridstructure
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
 			phone-min-height={0}
 			phone-min-width={0}
 			quarkly-title="Gridstructurephone"
@@ -2217,6 +2226,7 @@ export default (() => {
 			<Override slot="text1">
 				2019
 			</Override>
+			<Override slot="box13" phone-margin="0px 0px 5px 0px" />
 		</Components.Gridstructure>
 		<Box
 			min-width="100px"
@@ -2252,6 +2262,7 @@ export default (() => {
 				phone-justify-self="start"
 				phone-margin="5px 0px 0px 0px"
 				tablet-margin="5px 0px 2px 0px"
+				desktop-margin="10px 0px 2px 0px"
 			>
 				<Box
 					min-width="100px"
@@ -2910,7 +2921,7 @@ export default (() => {
 			phone-align-content="start"
 			phone-min-height={0}
 			tablet-margin="5px 0px 5px 0px"
-			desktop-height="75px"
+			desktop-height="50px"
 			desktop-align-content="center"
 		>
 			<LinkBox
@@ -3865,6 +3876,7 @@ export default (() => {
 			phone-min-width={0}
 			phone-display="grid"
 			phone-grid-template-rows="auto"
+			phone-margin="5px 0px 0px 0px"
 		>
 			<Override
 				slot="button"
@@ -4175,6 +4187,7 @@ export default (() => {
 			phone-display="grid"
 			desktop-display="none"
 			tablet-display="none"
+			phone-height="100%"
 		>
 			<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037262/IMG_5463-2_zyj1ba.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037262/IMG_5463-2_zyj1ba.jpg" phone-width="100%" />
 			<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg" phone-width="100%" />
@@ -4193,7 +4206,7 @@ export default (() => {
 			phone-height="auto"
 			phone-display="flex"
 			phone-min-height={0}
-			phone-margin="2px 0px 5px 0px"
+			phone-margin="2px 0px 10px 0px"
 			phone-min-width={0}
 			tablet-display="none"
 		>
@@ -4474,9 +4487,10 @@ export default (() => {
 			phone-align-content="start"
 			phone-min-height={0}
 			tablet-margin="5px 0px 5px 0px"
-			desktop-height="75px"
+			desktop-height="50px"
 			desktop-align-content="center"
 			phone-min-width={0}
+			desktop-margin="5px 0px 5px 0px"
 		>
 			<LinkBox
 				href="/portraits"
@@ -4519,110 +4533,625 @@ export default (() => {
 				</Button>
 			</LinkBox>
 		</Box>
-		<Components.Gridstructure
+		<Box
+			min-width="100px"
+			min-height="100px"
+			phone-display="grid"
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
+			phone-align-items="start"
+			quarkly-title="Gridstructurephone"
 			phone-min-height={0}
 			phone-min-width={0}
-			quarkly-title="Gridstructurephone"
 			tablet-display="none"
-			phone-display="grid"
-			phone-align-items="start"
+			phone-grid-template-rows="auto"
 		>
-			<Override slot="quarklycommunityKitGalleryOverride" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg" phone-position="static" />
-			<Override
-				slot="quarklycommunityKitGalleryOverride1"
-				previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036009/IMG_1706_pgbrjk.jpg"
-				fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036009/IMG_1706_pgbrjk.jpg"
-				phone-grid-column="span 2"
-				phone-grid-row="auto"
-				phone-grid-area="auto / span 2"
-				columsNumb="2"
-				rowsNumb="1"
-				phone-position="static"
-			/>
-			<Override
-				slot="quarklycommunityKitGalleryOverride2"
-				fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036011/7_zpxpc5.jpg"
-				previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036011/7_zpxpc5.jpg"
-				phone-grid-column="inherit"
-				phone-grid-area="auto / auto"
-				phone-grid-row="auto"
-				phone-position="static"
-			/>
-			<Override
-				slot="quarklycommunityKitGallery"
+			<Override slot="button" phone-type="link" phone-href="/portfolio/sports" />
+			<Box
+				min-width="100px"
+				background="#000000"
+				height="10px"
+				min-height="30px"
+				display="flex"
+				align-items="flex-end"
+				justify-content="center"
+				flex-direction="row"
+				bigPhone-font="16px "
+				bigPhone-width="100%"
+				bigPhone-min-height="10px"
+				smallPhone-width="100%"
+				smallPhone-min-width={0}
+				smallPhone-min-height={0}
+				phone-width="100%"
+				phone-height="AUTO"
+				phone-justify-self="start"
+				phone-margin="10px 0px 0px 0px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					smallPhone-width="33%"
+					smallPhone-height="100%"
+					smallPhone-min-width={0}
+					smallPhone-min-height={0}
+					smallPhone-display="flex"
+					smallPhone-margin="0px 2px 0px 2px"
+					phone-width="25%"
+					phone-height="auto"
+					phone-min-width={0}
+					phone-min-height={0}
+					phone-justify-content="flex-start"
+					phone-text-align="left"
+					phone-display="flex"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-content="flex-start"
+						smallPhone-flex-direction="row"
+						smallPhone-align-content="end"
+						smallPhone-margin="0px 0px 0px 2px"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Text
+							margin="0px 0px 0px 0px"
+							smallPhone-width="100%"
+							smallPhone-height="100%"
+							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+							smallPhone-text-transform="uppercase"
+							smallPhone-color="#ffffff"
+							smallPhone-display="block"
+						>
+							don toliver
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-items="end"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Box
+							min-width="100px"
+							min-height="100px"
+							smallPhone-min-width={0}
+							smallPhone-min-height={0}
+							smallPhone-width="50%"
+							smallPhone-height="100%"
+							smallPhone-display="grid"
+							smallPhone-flex-direction="row"
+							smallPhone-align-content="end"
+							smallPhone-justify-items="end"
+						>
+							<Text
+								margin="0px 0px 0px 0px"
+								smallPhone-width="100%"
+								smallPhone-height="100%"
+								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+								smallPhone-text-transform="uppercase"
+								smallPhone-color="#ffffff"
+								smallPhone-display="block"
+								smallPhone-text-align="right"
+							>
+								2021
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					smallPhone-width="33%"
+					smallPhone-height="100%"
+					smallPhone-min-width={0}
+					smallPhone-min-height={0}
+					smallPhone-display="flex"
+					smallPhone-margin="0px 2px 0px 2px"
+					phone-width="50%"
+					phone-height="auto"
+					phone-min-width={0}
+					phone-min-height={0}
+					phone-display="flex"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-content="flex-start"
+						smallPhone-flex-direction="row"
+						smallPhone-align-content="end"
+						phone-width="50%"
+						phone-min-width={0}
+						phone-min-height={0}
+						phone-height="auto"
+					>
+						<Text
+							margin="0px 0px 0px 0px"
+							smallPhone-width="100%"
+							smallPhone-height="100%"
+							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+							smallPhone-text-transform="uppercase"
+							smallPhone-color="#ffffff"
+							smallPhone-display="block"
+						>
+							mt fuji
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-items="end"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Box
+							min-width="100px"
+							min-height="100px"
+							smallPhone-min-width={0}
+							smallPhone-min-height={0}
+							smallPhone-width="50%"
+							smallPhone-height="100%"
+							smallPhone-display="grid"
+							smallPhone-justify-content="end"
+							smallPhone-flex-direction="row"
+							smallPhone-align-content="end"
+							smallPhone-text-align="right"
+						>
+							<Text
+								margin="0px 0px 0px 0px"
+								smallPhone-width="100%"
+								smallPhone-height="100%"
+								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+								smallPhone-text-transform="uppercase"
+								smallPhone-color="#ffffff"
+								smallPhone-display="block"
+								smallPhone-justify-self="end"
+								smallPhone-text-align="right"
+							>
+								2024
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					smallPhone-width="33%"
+					smallPhone-height="100%"
+					smallPhone-min-width={0}
+					smallPhone-min-height={0}
+					smallPhone-display="flex"
+					smallPhone-margin="0px 2px 0px 2px"
+					phone-width="25%"
+					phone-height="auto"
+					phone-min-width={0}
+					phone-min-height={0}
+					phone-display="flex"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-content="flex-start"
+						smallPhone-flex-direction="row"
+						smallPhone-align-content="end"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Text
+							margin="0px 0px 0px 0px"
+							smallPhone-width="100%"
+							smallPhone-height="100%"
+							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+							smallPhone-text-transform="uppercase"
+							smallPhone-color="#ffffff"
+							smallPhone-display="block"
+						>
+							GUNNA
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-items="end"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Box
+							min-width="100px"
+							min-height="100px"
+							smallPhone-min-width={0}
+							smallPhone-min-height={0}
+							smallPhone-width="50%"
+							smallPhone-height="100%"
+							smallPhone-display="grid"
+							smallPhone-flex-direction="row"
+							smallPhone-align-content="end"
+							smallPhone-justify-items="end"
+						>
+							<Text
+								margin="0px 0px 0px 0px"
+								smallPhone-width="100%"
+								smallPhone-height="100%"
+								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+								smallPhone-text-transform="uppercase"
+								smallPhone-color="#ffffff"
+								smallPhone-display="block"
+								smallPhone-text-align="right"
+							>
+								2021
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+			<Components.QuarklycommunityKitGallery
+				bigPhone-display="flex"
 				galleryItemNumbProp="3"
 				columnsCountProp="4"
 				borderWidthProp="2"
-				autoFillInProp
 				loaderFormatProp="all"
+				phone-width="100%"
+				phone-height="100%"
 				phone-grid-column="auto"
 				phone-grid-row="auto"
 				phone-grid-area="auto / auto"
+				autoFillInProp
+				phone-min-width={0}
+				phone-min-height={0}
+			>
+				<Override
+					slot="Item 0"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036005/26_ndyhqs.jpg"
+					fullObjectFit="cover"
+					fullLoading="eager"
+					previewObjectFit="cover"
+					previewLoading="eager"
+					showFullImage={false}
+					phone-width="100%"
+					phone-height="auto"
+					phone-position="static"
+				/>
+				<Override
+					slot="Item 1"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036009/IMG_1706_pgbrjk.jpg"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036009/IMG_1706_pgbrjk.jpg"
+					showFullImage={false}
+					phone-width="100%"
+					phone-height="auto"
+					phone-grid-column="span 2"
+					phone-grid-row="auto"
+					phone-grid-area="auto / span 2"
+					columsNumb="2"
+					rowsNumb="1"
+					phone-position="static"
+				/>
+				<Override
+					slot="Item 2"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036011/7_zpxpc5.jpg"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036011/7_zpxpc5.jpg"
+					showFullImage={false}
+					phone-width="100%"
+					phone-height="auto"
+					phone-grid-column="inherit"
+					phone-grid-area="auto / auto"
+					phone-grid-row="auto"
+					phone-position="static"
+				/>
+			</Components.QuarklycommunityKitGallery>
+			<Box
+				min-width="100px"
+				min-height="100px"
 				phone-width="100%"
 				phone-height="auto"
-				phone-min-width={0}
-				phone-min-height={0}
-			/>
-			<Override
-				slot="box1"
-				phone-width="25%"
-				phone-justify-content="flex-start"
-				phone-text-align="left"
 				phone-display="flex"
-			/>
-			<Override slot="box" phone-justify-self="start" phone-margin="5px 0px 0px 0px" />
-			<Override slot="box5" phone-width="50%" phone-display="flex" />
-			<Override slot="box9" phone-width="25%" phone-display="flex" />
-			<Override slot="box14" phone-width="25%" phone-height="a" />
-			<Override
-				slot="box18"
-				phone-width="50%"
-				phone-height="auto"
 				phone-min-height={0}
-				phone-min-width={0}
-			/>
-			<Override slot="box22" phone-width="25%" phone-height="auto" />
-			<Override slot="button" phone-type="link" phone-href="/portfolio/sports" />
-			<Override slot="box26" />
-			<Override slot="box16" phone-width="40%" />
-			<Override slot="text">
-				don toliver
-			</Override>
-			<Override slot="text1">
-				2021
-			</Override>
-			<Override slot="text2">
-				mt fuji
-			</Override>
-			<Override slot="text5">
-				2021
-			</Override>
-			<Override slot="text4" />
-			<Override slot="text10">
-				houston
-			</Override>
-			<Override slot="text11">
-				tx
-			</Override>
-			<Override slot="text8">
-				mount fuji
-			</Override>
-			<Override slot="text9">
-				japan
-			</Override>
-			<Override slot="text6">
-				houston
-			</Override>
-			<Override slot="text7">
-				tx
-			</Override>
-			<Override slot="box15" phone-width="60%" />
-			<Override slot="box13" phone-margin="0px 0px 5px 0px" />
-			<Override slot="box19" phone-min-width={0} phone-min-height={0} />
-			<Override slot="box20" phone-min-width={0} phone-min-height={0} />
-		</Components.Gridstructure>
+				phone-margin="0px 0px 0 0px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					smallPhone-width="100%"
+					smallPhone-min-width={0}
+					smallPhone-min-height={0}
+					smallPhone-display="flex"
+					smallPhone-margin="0px 0px 0px 0px"
+					smallPhone-height="10px"
+					phone-width="25%"
+					phone-min-width={0}
+					phone-min-height={0}
+					phone-height="a"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-content="flex-start"
+						smallPhone-flex-direction="row"
+						smallPhone-align-content="end"
+						smallPhone-margin="0px 0px 0px 2px"
+						phone-width="60%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Text
+							margin="0px 0px 0px 0px"
+							smallPhone-width="100%"
+							smallPhone-height="100%"
+							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+							smallPhone-text-transform="uppercase"
+							smallPhone-color="#ffffff"
+							smallPhone-display="block"
+						>
+							houston
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-items="end"
+						smallPhone-margin="0px 2px 0px 0px"
+						phone-width="40%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Box
+							min-width="100px"
+							min-height="100px"
+							smallPhone-min-width={0}
+							smallPhone-min-height={0}
+							smallPhone-width="50%"
+							smallPhone-height="100%"
+							smallPhone-display="grid"
+							smallPhone-justify-content="end"
+							smallPhone-flex-direction="row"
+							smallPhone-align-content="end"
+							smallPhone-text-align="right"
+						>
+							<Text
+								margin="0px 0px 0px 0px"
+								smallPhone-width="100%"
+								smallPhone-height="100%"
+								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+								smallPhone-text-transform="uppercase"
+								smallPhone-color="#ffffff"
+								smallPhone-display="block"
+								smallPhone-justify-self="end"
+								smallPhone-text-align="right"
+							>
+								tx
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					smallPhone-width="100%"
+					smallPhone-min-width={0}
+					smallPhone-min-height={0}
+					smallPhone-display="flex"
+					smallPhone-height="10px"
+					phone-width="50%"
+					phone-height="auto"
+					phone-min-height={0}
+					phone-min-width={0}
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-content="flex-start"
+						smallPhone-flex-direction="row"
+						smallPhone-align-content="end"
+						smallPhone-margin="0px 0px 0px 2px"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Text
+							margin="0px 0px 0px 0px"
+							smallPhone-width="100%"
+							smallPhone-height="100%"
+							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+							smallPhone-text-transform="uppercase"
+							smallPhone-color="#ffffff"
+							smallPhone-display="block"
+						>
+							mount fuji
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-items="end"
+						smallPhone-margin="0px 2px 0px 0px"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+						phone-display="grid"
+					>
+						<Box
+							min-width="100px"
+							min-height="100px"
+							smallPhone-min-width={0}
+							smallPhone-min-height={0}
+							smallPhone-width="50%"
+							smallPhone-height="100%"
+							smallPhone-display="grid"
+							smallPhone-justify-content="end"
+							smallPhone-flex-direction="row"
+							smallPhone-align-content="end"
+							smallPhone-text-align="right"
+						>
+							<Text
+								margin="0px 0px 0px 0px"
+								smallPhone-width="100%"
+								smallPhone-height="100%"
+								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+								smallPhone-text-transform="uppercase"
+								smallPhone-color="#ffffff"
+								smallPhone-display="block"
+								smallPhone-justify-self="end"
+								smallPhone-text-align="right"
+							>
+								japan
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					smallPhone-width="100%"
+					smallPhone-min-width={0}
+					smallPhone-min-height={0}
+					smallPhone-display="flex"
+					smallPhone-height="10px"
+					phone-width="25%"
+					phone-height="auto"
+					phone-min-width={0}
+					phone-min-height={0}
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-content="flex-start"
+						smallPhone-flex-direction="row"
+						smallPhone-align-content="end"
+						smallPhone-margin="0px 0px 0px 2px"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Text
+							margin="0px 0px 0px 0px"
+							smallPhone-width="100%"
+							smallPhone-height="100%"
+							smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+							smallPhone-text-transform="uppercase"
+							smallPhone-color="#ffffff"
+							smallPhone-display="block"
+							smallPhone-margin="0px 0px 0px 2px"
+						>
+							houston
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						smallPhone-min-width={0}
+						smallPhone-min-height={0}
+						smallPhone-width="50%"
+						smallPhone-height="100%"
+						smallPhone-display="grid"
+						smallPhone-justify-items="end"
+						smallPhone-margin="0px 2px 0px 0px"
+						phone-width="50%"
+						phone-height="auto"
+						phone-min-width={0}
+						phone-min-height={0}
+					>
+						<Box
+							min-width="100px"
+							min-height="100px"
+							smallPhone-min-width={0}
+							smallPhone-min-height={0}
+							smallPhone-width="50%"
+							smallPhone-height="100%"
+							smallPhone-display="grid"
+							smallPhone-justify-content="end"
+							smallPhone-flex-direction="row"
+							smallPhone-align-content="end"
+							smallPhone-text-align="right"
+						>
+							<Text
+								margin="0px 0px 0px 0px"
+								smallPhone-width="100%"
+								smallPhone-height="100%"
+								smallPhone-font="50 5px --fontFamily-googleAzeretMono"
+								smallPhone-text-transform="uppercase"
+								smallPhone-color="#ffffff"
+								smallPhone-display="block"
+								smallPhone-justify-self="end"
+								smallPhone-text-align="right"
+							>
+								tx
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+		</Box>
 		<Components.Gridstructure
 			phone-width="100%"
 			phone-height="auto"
@@ -4734,52 +5263,73 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			phone-width="100%"
-			phone-height="auto"
 			phone-display="grid"
-			phone-align-items="end"
+			phone-width="100%"
+			phone-height="100%"
+			phone-align-items="center"
 			phone-justify-items="center"
-			phone-justify-content="center"
-			phone-align-content="start"
 			phone-min-height={0}
-			tablet-margin="5px 0px 5px 0px"
-			desktop-height="75px"
-			desktop-align-content="center"
 			phone-min-width={0}
-			phone-padding="0 0px 0px 0px"
+			tablet-margin="5px 0px 5px 0px"
+			tablet-width="100%"
+			desktop-margin="5px 0px 5px 0px"
+			desktop-min-width={0}
+			desktop-min-height={0}
+			tablet-min-height={0}
+			desktop-height="50px"
 		>
-			<Button
-				phone-background="rgba(0, 119, 204, 0)"
-				phone-font="normal 300 5px/1.5 --fontFamily-googleAzeretMono"
-				phone-border-color="rgba(255, 255, 255, 0.37)"
-				phone-border-width="0.5px"
-				phone-border-style="solid"
-				phone-padding="4px 10px 4px 10px"
-				phone-border-radius="0px"
-				phone-color="rgba(247, 251, 255, 0.72)"
-				tablet-font="300 10px/100% &quot;Azeret Mono&quot;, monospace"
-				tablet-margin="5px 0px 5px 0px"
-				tablet-padding="10px 15px 10px 15px"
-				background="rgba(0, 119, 204, 0)"
-				href="/portraits"
-				desktop-color="#010101"
-				desktop-font="normal 200 12px/1 &quot;Azeret Mono&quot;, monospace"
-				desktop-padding="10px 15px 10px 15px"
-				desktop-text-align="center"
-				desktop-border-color="rgba(255, 255, 255, 0)"
+			<LinkBox
+				href="/film"
+				phone-min-height={0}
+				phone-min-width={0}
+				phone-align-content="center"
+				phone-margin="0 0px 0 0px"
+				phone-height="22px"
+				tablet-height="40px"
+				tablet-width="120px"
+				desktop-background="rgba(255, 255, 255, 0.85)"
+				desktop-border-radius="4px"
+				desktop-height="40px"
+				desktop-hover-background="rgba(88, 109, 142, 0.76)"
 				desktop-hover-color="#ffffff"
-				type="button"
-				desktop-type="link"
-				phone-margin="5px 0px 5px 0px"
+				desktop-href="/film"
 			>
-				FILM ›
-			</Button>
+				<Button
+					phone-background="rgba(0, 119, 204, 0)"
+					phone-font="normal 300 5px/1.5 &quot;Azeret Mono&quot;, monospace"
+					phone-padding="4px 10px 4px 10px"
+					phone-border-width="0.5px"
+					phone-border-style="solid"
+					phone-border-color="rgba(255, 255, 255, 0.37)"
+					phone-border-radius="0px"
+					phone-type="link"
+					phone-href="/film"
+					href="/film"
+					type="button"
+					phone-color="rgba(247, 251, 255, 0.72)"
+					tablet-font="normal 300 10px/100% &quot;Azeret Mono&quot;, monospace"
+					tablet-margin="5px 0px 5px 0px"
+					tablet-padding="10px 15px 10px 15px"
+					tablet-background="rgba(0, 119, 204, 0)"
+					desktop-background="rgba(255, 255, 255, 0)"
+					desktop-border-radius={0}
+					desktop-color="#000000"
+					desktop-font="normal 200 12px/1 &quot;Azeret Mono&quot;, monospace"
+					desktop-padding="10px 15px 10px 15px"
+					desktop-type="link"
+					desktop-border-color="rgba(255, 255, 255, 0)"
+					desktop-margin="5px 0px 5px 0px"
+					desktop-hover-color="#ffffff"
+				>
+					FILM ›
+				</Button>
+			</LinkBox>
 		</Box>
 		<Box
 			min-width="100px"
 			min-height="100px"
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="none"
@@ -4810,7 +5360,7 @@ export default (() => {
 				phone-min-height={0}
 				phone-display="grid"
 				phone-overflow-x="hidden"
-				phone-margin="0px 0px 2px 0px"
+				phone-margin="5px 0px 2px 0px"
 			>
 				<Override
 					slot="button"
@@ -5847,6 +6397,7 @@ export default (() => {
 				phone-min-height={0}
 				phone-margin="0px 0px 5px 0px"
 				tablet-margin="2px 0px 5px 0px"
+				desktop-margin="2px 0px 10px 0px"
 			>
 				<Box
 					min-width="100px"
@@ -6227,7 +6778,7 @@ export default (() => {
 			min-width="100px"
 			min-height="100px"
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
 			phone-display="grid"
 			phone-align-items="end"
 			phone-justify-items="center"
@@ -6235,9 +6786,9 @@ export default (() => {
 			phone-align-content="end"
 			phone-min-height={0}
 			tablet-margin="5px 0px 5px 0px"
-			desktop-height="75px"
 			desktop-align-content="center"
 			phone-min-width={0}
+			desktop-height="50px"
 		>
 			<LinkBox
 				href="/bts"
@@ -6255,6 +6806,8 @@ export default (() => {
 				phone-margin="0px 0px 1px 0px"
 				phone-align-content="flex-end"
 				phone-justify-content="center"
+				phone-min-width={0}
+				phone-min-height={0}
 			>
 				<Button
 					phone-background="rgba(0, 119, 204, 0)"
@@ -6289,7 +6842,7 @@ export default (() => {
 		</Box>
 		<Components.Gridstructure
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
 			phone-min-height={0}
 			phone-min-width={0}
 			quarkly-title="Gridstructurephone"
@@ -6483,7 +7036,7 @@ export default (() => {
 			<Override slot="text11" tablet-font="100 10px &quot;Azeret Mono&quot;, monospace">
 				kailua
 			</Override>
-			<Override slot="box13" tablet-margin="2px 0px 5px 0px" />
+			<Override slot="box13" tablet-margin="2px 0px 5px 0px" desktop-margin="2px 0px 10px 0px" />
 			<Override slot="box16" tablet-width="40%" />
 			<Override slot="box15" tablet-width="60%" />
 		</Components.Gridstructure>
@@ -6499,14 +7052,15 @@ export default (() => {
 			phone-align-content="start"
 			phone-min-height={0}
 			tablet-margin="5px 0px 5px 0px"
-			desktop-height="75px"
-			desktop-align-content="center"
+			desktop-align-content="start"
+			desktop-margin="5px 0px 5px 0px"
+			desktop-align-items="start"
+			desktop-height="50px"
 		>
 			<LinkBox
 				href="/landscape"
 				phone-href="/music"
 				desktop-background="rgba(255, 255, 255, 0.85)"
-				desktop-height="40px"
 				desktop-width="120px"
 				desktop-border-radius="4px"
 				desktop-opacity="2"
@@ -6515,6 +7069,7 @@ export default (() => {
 				desktop-hover-background="rgba(88, 109, 142, 0.76)"
 				desktop-hover-color="#ebebeb"
 				desktop-href="/landscape"
+				desktop-justify-content="center"
 			>
 				<Button
 					phone-background="rgba(0, 119, 204, 0)"
@@ -6538,6 +7093,7 @@ export default (() => {
 					desktop-hover-color="#ffffff"
 					type="button"
 					desktop-type="link"
+					desktop-margin="5px 0px 5px 0px"
 				>
 					LANDSCAPE ›
 				</Button>
@@ -6545,7 +7101,7 @@ export default (() => {
 		</Box>
 		<Components.Gridstructure
 			phone-width="100%"
-			phone-height="auto"
+			phone-height="100%"
 			tablet-display="none"
 			phone-min-width={0}
 			phone-min-height={0}
@@ -6564,7 +7120,7 @@ export default (() => {
 			>
 				music ›
 			</Override>
-			<Override slot="box" phone-width="100%" phone-height="auto" phone-margin="5px 0px 0px 0px" />
+			<Override slot="box" phone-width="100%" phone-height="auto" phone-margin="10px 0px 0px 0px" />
 			<Override
 				slot="quarklycommunityKitGallery"
 				galleryItemNumbProp="3"
@@ -6638,6 +7194,7 @@ export default (() => {
 			phone-align-items="flex-start"
 			quarkly-title="music grid"
 			tablet-display="block"
+			desktop-min-height={0}
 		>
 			<Override
 				slot="button"
@@ -6976,6 +7533,7 @@ export default (() => {
 				phone-display="flex"
 				phone-min-height={0}
 				phone-margin="0px 0px 5px 0px"
+				desktop-margin="0px 0px 10px 0px"
 			>
 				<Box
 					min-width="100px"
@@ -7365,9 +7923,9 @@ export default (() => {
 			phone-align-content="start"
 			phone-min-height={0}
 			tablet-margin="5px 0px 5px 0px"
-			desktop-height="75px"
 			desktop-align-content="center"
 			phone-flex-direction="column"
+			desktop-height="50px"
 		>
 			<LinkBox
 				href="/automotive"
