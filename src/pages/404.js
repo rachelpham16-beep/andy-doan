@@ -50,13 +50,26 @@ export default (() => {
 				>
 					Sorry, we couldn’t find the page you’re looking for.
 				</Text>
-				<Box display="grid" grid-template-columns="1fr 1fr" grid-gap="8px" sm-grid-template-columns="1fr">
+				<Box
+					display="grid"
+					grid-template-columns="1fr 1fr"
+					grid-gap="8px"
+					sm-grid-template-columns="1fr"
+					desktop-align-self="center"
+					desktop-justify-content="center"
+					desktop-align-content="center"
+					desktop-justify-items="center"
+					desktop-align-items="center"
+					desktop-display="flex"
+					tablet-display="flex"
+					phone-display="flex"
+				>
 					<Link
 						font="--lead"
 						padding="12px 24px 12px 24px"
 						background="--color-primary"
 						border-radius="8px"
-						href="/"
+						href="/index"
 						text-decoration-line="initial"
 						color="--light"
 						transition="--opacityOut"
@@ -67,6 +80,7 @@ export default (() => {
 						phone-text-align="center"
 						phone-padding="12px 20px 12px 20px"
 						phone-href="/index"
+						tablet-margin="50px 0px 0px 0px"
 					>
 						Go back to home
 					</Link>

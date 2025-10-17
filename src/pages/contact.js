@@ -17,7 +17,30 @@ export default (() => {
 			<meta name={"description"} content={"PHOTOGRAPHY PORTFOLIO"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/logo.png?v=2025-10-03T14:17:11.831Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.Destophead />
+		<Components.Destophead tablet-height="100%">
+			<Override
+				slot="logo"
+				tablet-min-height={0}
+				tablet-min-width={0}
+				tablet-margin="10px 0px 0px 10px"
+				desktop-margin="10px 0px 0px 20px"
+			/>
+			<Override
+				slot="logoOverride"
+				tablet-width="75px"
+				tablet-height="75px"
+				tablet-min-height={0}
+				tablet-min-width={0}
+				tablet-justify-content="flex-start"
+			/>
+			<Override slot="quarklycommunityKitMobileSidePanel">
+				<Override slot="Button :closed" tablet-height="30px" tablet-width="30px" />
+				<Override slot="Button" tablet-height="30px" tablet-width="30px" />
+			</Override>
+			<Override slot="quarklycommunityKitMobileSidePanelOverride8" tablet-size="25" size="25px" tablet-margin="30px 25px 0px 0px" />
+			<Override slot="box" tablet-margin="10px 0px 0px 0" tablet-justify-content="flex-start" />
+			<Override slot="linkBox" tablet-align-items="flex-start" desktop-justify-content="flex-start" />
+		</Components.Destophead>
 		<Section
 			padding="80px 0 90px 0"
 			quarkly-title="Contacts-5"
@@ -26,6 +49,7 @@ export default (() => {
 			phone-flex-direction="column"
 			phone-justify-content="flex-start"
 			phone-padding="20px 0 20px 0"
+			tablet-margin="50px 0 0 0"
 		>
 			<Override
 				slot="SectionContent"
@@ -270,8 +294,16 @@ export default (() => {
 				flex-wrap="wrap"
 				desktop-align-items="flex-start"
 				desktop-justify-content="center"
+				desktop-width="100%"
+				desktop-height="100%"
 			>
-				<Box padding="16px 16px 16px 16px" width="50%" lg-width="100%" phone-padding="16px 16px 7px 16px">
+				<Box
+					padding="16px 16px 16px 16px"
+					width="50%"
+					lg-width="100%"
+					phone-padding="16px 16px 7px 16px"
+					desktop-width="100%"
+				>
 					<Box phone-text-align="left" phone-display="flex" phone-justify-content="center" phone-align-items="center">
 						<Text
 							font="--base"
@@ -296,15 +328,27 @@ export default (() => {
 					lg-width="100%"
 					phone-padding="0 8px 8px 8px"
 					phone-margin="0px 15px 0px 15px"
+					desktop-width="85%"
 				>
-					<Box phone-display="flex" phone-align-items="center" phone-justify-content="center">
+					<Box
+						phone-display="flex"
+						phone-align-items="center"
+						phone-justify-content="center"
+						desktop-width="100%"
+						desktop-height="100%"
+					>
 						<Formspree
-							endpoint="xeqpgrlv"
+							endpoint="https://formspree.io/f/xwpryoej"
 							phone-width="80%"
 							phone-align-items="center"
 							phone-display="flex"
 							phone-justify-content="center"
 							phone-align-content="center"
+							desktop-width="100%"
+							desktop-height="100%"
+							desktop-min-height={0}
+							desktop-min-width={0}
+							desktop-display="block"
 						>
 							<Box
 								gap="16px"
@@ -313,8 +357,10 @@ export default (() => {
 								flex-wrap="wrap"
 								grid-template-columns="repeat(2, 1fr)"
 								grid-gap="16px"
+								desktop-width="100%"
+								desktop-height="100%"
 							>
-								<Box sm-width="100%" display="flex" flex-direction="column">
+								<Box sm-width="100%" display="flex" flex-direction="column" desktop-width="100%">
 									<Text font="--base" margin="0 0 4px 0" phone-color="#ffffff" phone-font="normal 100 12px/1.5 &quot;Azeret Mono&quot;, monospace">
 										NAME
 									</Text>
@@ -324,6 +370,7 @@ export default (() => {
 										type="text"
 										required
 										phone-height="20px"
+										desktop-height="50px"
 									/>
 								</Box>
 								<Box sm-width="100%" display="flex" flex-direction="column">
@@ -342,6 +389,7 @@ export default (() => {
 										name="email"
 										required
 										phone-height="20px"
+										desktop-height="50px"
 									/>
 								</Box>
 								<Box display="flex" flex-direction="column" grid-column="1 / span 2">
@@ -361,6 +409,7 @@ export default (() => {
 										name="message"
 										required
 										phone-height="50px"
+										desktop-height="100px"
 									/>
 								</Box>
 								<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
