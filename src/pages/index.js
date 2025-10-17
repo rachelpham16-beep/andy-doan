@@ -27,7 +27,7 @@ export default (() => {
 			background="rgba(255, 255, 255, 0) url(https://uploads.quarkly.io/68d745af90a2bb0024b9041d/images/24_Original.JPG?v=2025-09-27T02:14:54.476Z) 50% 70% /cover repeat scroll"
 			min-height="650px"
 			tablet-height="550px"
-			desktop-height="850px"
+			desktop-height="750px"
 			desktop-min-height="850px"
 			phone-min-height={0}
 			desktop-margin="0 0 0 0"
