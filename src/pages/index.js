@@ -3665,7 +3665,7 @@ export default (() => {
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
 							<Strong>
-								GRAFFITTI FALLAS
+							GRAFFITI FALLS
 							</Strong>
 						</Text>
 					</Box>
@@ -4338,7 +4338,7 @@ export default (() => {
 						smallPhone-color="#ffffff"
 						smallPhone-display="block"
 					>
-						graffitti fallas
+						GRAFFITI FALLS
 					</Text>
 				</Box>
 				<Box
