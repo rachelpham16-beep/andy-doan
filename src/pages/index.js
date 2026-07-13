@@ -8059,8 +8059,10 @@ export default (() => {
 					display="block"
 					object-fit="contain"
 					align-self="center"
-					phone-height="100%"
+					phone-height="48%"
 					tablet-width="50%"
+					tablet-transform="none"
+					desktop-transform="none"
 				/>
 				<Image
 					src="https://res.cloudinary.com/dgan17f48/image/upload/v1783901683/ChatGPT_Image_Jul_12_2026_07_14_31_PM_pamlcr.png"
