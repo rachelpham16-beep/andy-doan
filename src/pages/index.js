@@ -8054,6 +8054,22 @@ export default (() => {
 					phone-height="100%"
 					tablet-width="50%"
 				/>
+				<Image
+					src="https://res.cloudinary.com/dgan17f48/image/upload/v1783910784/logo-hennessy-white_dnnnys.png"
+					display="block"
+					object-fit="contain"
+					align-self="center"
+					phone-height="100%"
+					tablet-width="50%"
+				/>
+				<Image
+					src="https://res.cloudinary.com/dgan17f48/image/upload/v1783901683/ChatGPT_Image_Jul_12_2026_07_14_31_PM_pamlcr.png"
+					display="block"
+					object-fit="contain"
+					transform="scale(0.414)"
+					phone-height="100%"
+					tablet-width="50%"
+				/>
 			</Components.QuarklycommunityKitMarquee>
 		</Box>
 		<Section
