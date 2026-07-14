@@ -18,13 +18,15 @@ const VimeoHomepageVideo = () => {
 		background="--color-dark"
 		display="flex"
 		justify-content="center"
+		margin="80px 0px 0px 0px"
+		tablet-margin="60px 0px 0px 0px"
+		phone-margin="40px 0px 0px 0px"
 	>
 		<Box
 			position="relative"
 			width="100%"
-			max-width="1200px"
-			height="0"
-			padding-bottom="56.25%"
+			max-width="640px"
+			aspect-ratio="16 / 9"
 			overflow="hidden"
 			min-width={0}
 			min-height={0}
@@ -40,7 +42,9 @@ const VimeoHomepageVideo = () => {
 					left: 0,
 					width: "100%",
 					height: "100%",
-					border: "none"
+					border: "none",
+					margin: 0,
+					padding: 0
 				}}
 			/> : <Button
 				type="button"
