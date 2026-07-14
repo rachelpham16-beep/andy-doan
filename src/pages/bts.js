@@ -20,41 +20,46 @@ export default (() => {
 			<Components.QuarklycommunityKitGallery
 				desktop-width="33%"
 				phone-width="33%"
-				galleryItemNumbProp="4"
+				galleryItemNumbProp="6"
 				columnsCountProp="1"
 				borderWidthProp="2"
 				phone-margin="0px 2px 0px 0px"
 			>
 				<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035976/IMG_1772_wuibun.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035976/IMG_1772_wuibun.jpg" />
-				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037258/IMG_1245_kz6pwe.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037258/IMG_1245_kz6pwe.jpg" />
-				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035977/IMG_0948_gnqeqj.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035977/IMG_0948_gnqeqj.jpg" />
-				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1053_3_dcseqf.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1053_3_dcseqf.jpg" />
+				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987196/373A1578_1_qqbqtx.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987196/373A1578_1_qqbqtx.jpg" />
+				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037258/IMG_1245_kz6pwe.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037258/IMG_1245_kz6pwe.jpg" />
+				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035977/IMG_0948_gnqeqj.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035977/IMG_0948_gnqeqj.jpg" />
+				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987190/373A1555_kltirn.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987190/373A1555_kltirn.jpg" />
+				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1053_3_dcseqf.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1053_3_dcseqf.jpg" />
 			</Components.QuarklycommunityKitGallery>
 			<Components.QuarklycommunityKitGallery
 				desktop-width="33%"
 				phone-width="33%"
-				galleryItemNumbProp="5"
+				galleryItemNumbProp="6"
 				columnsCountProp="1"
 				borderWidthProp="2"
 			>
 				<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035976/IMG_1366_x6dpea.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035976/IMG_1366_x6dpea.jpg" />
 				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037260/IMG_1781_jykaij.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037260/IMG_1781_jykaij.jpg" />
 				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035975/IMG_1769_tawdlg.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035975/IMG_1769_tawdlg.jpg" />
-				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_9057_hoej9r.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_9057_hoej9r.jpg" />
-				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_1093_mx3ddq.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_1093_mx3ddq.jpg" />
+				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987194/373A1577_feucdq.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987194/373A1577_feucdq.jpg" />
+				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_9057_hoej9r.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_9057_hoej9r.jpg" />
+				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_1093_mx3ddq.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_1093_mx3ddq.jpg" />
 			</Components.QuarklycommunityKitGallery>
 			<Components.QuarklycommunityKitGallery
 				desktop-width="33%"
 				phone-width="33%"
-				galleryItemNumbProp="4"
+				galleryItemNumbProp="6"
 				columnsCountProp="1"
 				borderWidthProp="2"
 				phone-margin="0px 0px 0px 2px"
 			>
 				<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037261/IMG_1797_uorkdp.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037261/IMG_1797_uorkdp.jpg" />
-				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037259/IMG_1280_lyibzp.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037259/IMG_1280_lyibzp.jpg" />
-				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1169_ghpzhl.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1169_ghpzhl.jpg" />
-				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_0895_buzpuc.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_0895_buzpuc.jpg" />
+				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987188/IMG_7582_ilantr.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783987188/IMG_7582_ilantr.jpg" />
+				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037259/IMG_1280_lyibzp.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037259/IMG_1280_lyibzp.jpg" />
+				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1169_ghpzhl.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035974/IMG_1169_ghpzhl.jpg" />
+				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783983645/373A1578_wemmwa.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783983645/373A1578_wemmwa.jpg" />
+				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_0895_buzpuc.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035973/IMG_0895_buzpuc.jpg" />
 			</Components.QuarklycommunityKitGallery>
 		</Box>
 		<RawHtml>

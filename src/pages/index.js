@@ -7135,11 +7135,11 @@ export default (() => {
 				phone-min-height={0}
 				phone-min-width={0}
 			/>
-			<Override slot="quarklycommunityKitGalleryOverride" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg" />
+			<Override slot="quarklycommunityKitGalleryOverride" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg" />
 			<Override
 				slot="quarklycommunityKitGalleryOverride1"
-				fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg"
-				previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg"
+				fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg"
+				previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg"
 				fullObjectFit="cover"
 				previewObjectFit="cover"
 				columsNumb="1"
@@ -7163,24 +7163,24 @@ export default (() => {
 				japan
 			</Override>
 			<Override slot="text2">
-				bmw
+				classic
 			</Override>
 			<Override slot="text3" />
 			<Override slot="text8">
-				chicago
+				dallas
 			</Override>
 			<Override slot="text9">
-				il
+				tx
 			</Override>
 			<Override slot="text">
-				classic
+				bmw
 			</Override>
 			<Override slot="text1" />
 			<Override slot="text6">
-				dallas
+				chicago
 			</Override>
 			<Override slot="text7">
-				tx
+				il
 			</Override>
 			<Override slot="text5" />
 			<Override slot="box13" phone-margin="2px 0px 5px 0px" />
@@ -7268,7 +7268,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							classic
+							bmw
 						</Text>
 					</Box>
 				</Box>
@@ -7313,7 +7313,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							bmw
+							classic
 						</Text>
 					</Box>
 				</Box>
@@ -7488,8 +7488,8 @@ export default (() => {
 			>
 				<Override
 					slot="Item 0"
-					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg"
-					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg"
 					fullObjectFit="cover"
 					fullLoading="eager"
 					previewObjectFit="cover"
@@ -7500,8 +7500,8 @@ export default (() => {
 				/>
 				<Override
 					slot="Item 1"
-					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg"
-					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/8C535AE1-B158-4991-99B8-1DBA8C98D6B8-35583-0000128B41A33327_mmz8wh.jpg"
+					previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg"
+					fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759035911/DSCF9300_zt6yza.jpg"
 					showFullImage={false}
 					phone-width="100%"
 					phone-height="auto"
@@ -7577,7 +7577,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							dallas
+							chicago
 						</Text>
 					</Box>
 					<Box
@@ -7620,7 +7620,7 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								tx
+								il
 							</Text>
 						</Box>
 					</Box>
@@ -7666,7 +7666,7 @@ export default (() => {
 							smallPhone-display="block"
 							tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 						>
-							chicago
+							dallas
 						</Text>
 					</Box>
 					<Box
@@ -7710,7 +7710,7 @@ export default (() => {
 								smallPhone-text-align="right"
 								tablet-font="100 10px &quot;Azeret Mono&quot;, monospace"
 							>
-								il
+								tx
 							</Text>
 						</Box>
 					</Box>
