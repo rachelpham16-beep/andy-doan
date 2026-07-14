@@ -210,7 +210,7 @@ export default (() => {
 						PORTFOLIO
 					</Text>
 					<Link
-						href="https://www.instagram.com/andydoanut?igsh=MTRjM2hzZGlkZTQwcQ=="
+						href="https://www.instagram.com/andydoanut/"
 						color="#47474d"
 						text-decoration-line="initial"
 						font="normal 300 18px/1.5 --fontFamily-sansHelvetica"

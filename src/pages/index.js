@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import theme from "theme";
 import { Theme, Image, LinkBox, Strong, Span, Link, Hr, Box, Section, Text, Button, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
@@ -81,6 +81,48 @@ const VimeoHomepageVideo = () => {
 	</Box>;
 };
 export default (() => {
+	const [galleryKey, setGalleryKey] = useState(0);
+	useEffect(() => {
+		let resolved = false;
+		let fallbackTimeoutId;
+		const cleanupFns = [];
+
+		const remount = () => {
+			if (resolved) return;
+			resolved = true;
+			cleanupFns.forEach(fn => fn());
+			setGalleryKey(1);
+		};
+
+		const images = Array.from(document.querySelectorAll("img"));
+		let pending = images.filter(img => !img.complete).length;
+
+		if (pending === 0) {
+			remount();
+		} else {
+			images.forEach(img => {
+				if (img.complete) return;
+				const onDone = () => {
+					pending -= 1;
+					if (pending <= 0) remount();
+				};
+				img.addEventListener("load", onDone);
+				img.addEventListener("error", onDone);
+				cleanupFns.push(() => {
+					img.removeEventListener("load", onDone);
+					img.removeEventListener("error", onDone);
+				});
+			});
+		}
+
+		fallbackTimeoutId = setTimeout(remount, 2000);
+
+		return () => {
+			resolved = true;
+			cleanupFns.forEach(fn => fn());
+			clearTimeout(fallbackTimeoutId);
+		};
+	}, []);
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
@@ -608,6 +650,7 @@ export default (() => {
 				</Components.QuarklycommunityKitMobileSidePanel>
 			</Box>
 		</Section>
+		<Box key={galleryKey}>
 		<Box
 			min-width="100px"
 			min-height="100px"
@@ -8043,6 +8086,7 @@ export default (() => {
 				</Button>
 			</LinkBox>
 		</Box>
+		</Box>
 		<VimeoHomepageVideo />
 		<Box
 			min-width="100px"
@@ -8157,7 +8201,7 @@ export default (() => {
 			phone-align-items="center"
 			phone-background="#000000"
 		>
-			<SocialMedia instagram="https://www.instagram.com/andydoanut?igsh=MTRjM2hzZGlkZTQwcQ==" linked-in="https://www.linkedin.com/in/andydoanut">
+			<SocialMedia instagram="https://www.instagram.com/andydoanut/" linked-in="https://www.linkedin.com/in/andydoanut">
 				<Override
 					slot="link"
 					border-radius="50%"
