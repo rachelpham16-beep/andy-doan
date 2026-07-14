@@ -1,11 +1,85 @@
-import React from "react";
+import React, { useState } from "react";
 import theme from "theme";
-import { Theme, Image, LinkBox, Strong, Span, Link, Hr, Box, Section, Text, Button } from "@quarkly/widgets";
+import { Theme, Image, LinkBox, Strong, Span, Link, Hr, Box, Section, Text, Button, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 import { FiAlignRight } from "react-icons/fi";
+import { FaPlay } from "react-icons/fa";
+
+const VimeoHomepageVideo = () => {
+	const [isPlaying, setIsPlaying] = useState(false);
+	const thumbnailUrl = "https://i.vimeocdn.com/video/2178926915-f86a10bb1232ab7f610d33f86cd098cb6a9fe73d7ea48cfded585f4b63748784-d_1920x1080?region=us";
+	return <Box
+		min-width={0}
+		min-height={0}
+		width="100%"
+		background="--color-dark"
+		display="flex"
+		justify-content="center"
+	>
+		<Box
+			position="relative"
+			width="100%"
+			max-width="1200px"
+			height="0"
+			padding-bottom="56.25%"
+			overflow="hidden"
+			min-width={0}
+			min-height={0}
+		>
+			{isPlaying ? <iframe
+				src="https://player.vimeo.com/video/1209357332?autoplay=1&title=0&byline=0&portrait=0"
+				title="Andy Doan Photography — homepage video"
+				allow="autoplay; fullscreen; picture-in-picture"
+				allowFullScreen
+				style={{
+					position: "absolute",
+					top: 0,
+					left: 0,
+					width: "100%",
+					height: "100%",
+					border: "none"
+				}}
+			/> : <Button
+				type="button"
+				onClick={() => setIsPlaying(true)}
+				aria-label="Play video"
+				position="absolute"
+				top="0px"
+				left="0px"
+				width="100%"
+				height="100%"
+				margin="0px"
+				padding="0px"
+				border-width="0px"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				cursor="pointer"
+				background={`url(${thumbnailUrl}) center center / cover no-repeat #000000`}
+				hover-background={`url(${thumbnailUrl}) center center / cover no-repeat #000000`}
+			>
+				<Box
+					min-width={0}
+					min-height={0}
+					width="88px"
+					height="88px"
+					phone-width="56px"
+					phone-height="56px"
+					border-radius="50%"
+					background="rgba(0, 0, 0, 0.55)"
+					display="flex"
+					align-items="center"
+					justify-content="center"
+				>
+					<Icon category="fa" icon={FaPlay} size="32px" phone-size="20px" color="#ffffff" margin="0px 0px 0px 4px" />
+				</Box>
+			</Button>}
+		</Box>
+	</Box>;
+};
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -7969,6 +8043,7 @@ export default (() => {
 				</Button>
 			</LinkBox>
 		</Box>
+		<VimeoHomepageVideo />
 		<Box
 			min-width="100px"
 			min-height="100px"
