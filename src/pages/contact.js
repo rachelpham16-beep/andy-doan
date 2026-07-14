@@ -121,7 +121,7 @@ export default (() => {
 						Phone
 					</Text>
 					<Link
-						href="tel:+9877654321223"
+						href="tel:+19512071518"
 						color="#47474d"
 						text-decoration-line="initial"
 						font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
@@ -130,7 +130,7 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						phone-font="normal 300 12px/1.5 --fontFamily-googleAzeretMono"
 					>
-						1235466748
+						(951) 207-1518
 					</Link>
 				</Box>
 				<Box
@@ -165,7 +165,7 @@ export default (() => {
 						E-mail
 					</Text>
 					<Link
-						href="mailto:info@yourdomain.com"
+						href="mailto:info@andydoanut.com"
 						color="#47474d"
 						text-decoration-line="initial"
 						font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
@@ -210,7 +210,7 @@ export default (() => {
 						PORTFOLIO
 					</Text>
 					<Link
-						href="mailto:info@yourdomain.com"
+						href="https://www.instagram.com/andydoanut?igsh=MTRjM2hzZGlkZTQwcQ=="
 						color="#47474d"
 						text-decoration-line="initial"
 						font="normal 300 18px/1.5 --fontFamily-sansHelvetica"
@@ -219,7 +219,7 @@ export default (() => {
 						text-align="center"
 						phone-font="normal 300 12px/1.5 --fontFamily-googleAzeretMono"
 					>
-						instagram.com/andydoanut/
+						instagram.com/andydoanut
 					</Link>
 				</Box>
 				<Box

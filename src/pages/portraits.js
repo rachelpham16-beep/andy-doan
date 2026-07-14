@@ -26,7 +26,7 @@ export default (() => {
 			phone-min-width={0}
 		>
 			<Components.QuarklycommunityKitGallery
-				galleryItemNumbProp="12"
+				galleryItemNumbProp="14"
 				columnsCountProp="1"
 				borderWidthProp="2"
 				aspectRatioProp="auto"
@@ -38,19 +38,21 @@ export default (() => {
 				<Override slot="Item 1" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037263/IMG_5631_Original_2_t5wyvm.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037263/IMG_5631_Original_2_t5wyvm.jpg" />
 				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036191/40BF9E5F-CD2F-401D-8189-566BCB3A1318_i7tqxl.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036191/40BF9E5F-CD2F-401D-8189-566BCB3A1318_i7tqxl.jpg" />
 				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036175/IMG_3535_qan4oh.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760216119/373A0623_1_req1jg.jpg" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1760216119/373A0623_1_req1jg.jpg" />
-				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg" />
-				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037263/IMG_8001_mg8muc.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037263/IMG_8001_mg8muc.jpg" />
-				<Override slot="Item 6" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036270/IMG_4192_2_rzbhn6.jpg" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036270/IMG_4192_2_rzbhn6.jpg" />
-				<Override slot="Item 7" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036201/IMG_0263_2_dm5aao.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036201/IMG_0263_2_dm5aao.jpg" />
-				<Override slot="Item 8" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036200/IMG_1177_w93syg.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036200/IMG_1177_w93syg.jpg" />
-				<Override slot="Item 9" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036184/IMG_2714_dww1lb.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036184/IMG_2714_dww1lb.jpg" />
-				<Override slot="Item 10" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036183/IMG_9222_n8krrh.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036183/IMG_9222_n8krrh.jpg" />
-				<Override slot="Item 11" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036175/IMG_3535_qan4oh.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036175/IMG_3535_qan4oh.jpg" columsNumb="1" />
+				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903050/IMG_0376_oakrby.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903050/IMG_0376_oakrby.jpg" />
+				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036231/IMG_4194_e5ikkt.jpg" />
+				<Override slot="Item 6" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037263/IMG_8001_mg8muc.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037263/IMG_8001_mg8muc.jpg" />
+				<Override slot="Item 7" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036270/IMG_4192_2_rzbhn6.jpg" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036270/IMG_4192_2_rzbhn6.jpg" />
+				<Override slot="Item 8" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036201/IMG_0263_2_dm5aao.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036201/IMG_0263_2_dm5aao.jpg" />
+				<Override slot="Item 9" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036200/IMG_1177_w93syg.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036200/IMG_1177_w93syg.jpg" />
+				<Override slot="Item 10" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903050/IMG_0383_fllvu6.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903050/IMG_0383_fllvu6.jpg" />
+				<Override slot="Item 11" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036184/IMG_2714_dww1lb.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036184/IMG_2714_dww1lb.jpg" />
+				<Override slot="Item 12" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036183/IMG_9222_n8krrh.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036183/IMG_9222_n8krrh.jpg" />
+				<Override slot="Item 13" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036175/IMG_3535_qan4oh.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036175/IMG_3535_qan4oh.jpg" columsNumb="1" />
 			</Components.QuarklycommunityKitGallery>
 			<Components.QuarklycommunityKitGallery
 				phone-display="block"
 				phone-width="33%"
-				galleryItemNumbProp="12"
+				galleryItemNumbProp="14"
 				columnsCountProp="1"
 				borderWidthProp="2"
 				imagesMaxWidthProp="none"
@@ -61,20 +63,22 @@ export default (() => {
 				<Override slot="Item 2" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036191/IMG_7992_3_w81g0c.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036191/IMG_7992_3_w81g0c.jpg" />
 				<Override slot="Item 3" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036197/IMG_4201_lpdmro.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036197/IMG_4201_lpdmro.jpg" />
 				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036234/IMG_2184_bzucfb.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036234/IMG_2184_bzucfb.jpg" />
-				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037266/IMG_8109_bdmyqy.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037266/IMG_8109_bdmyqy.jpg" />
-				<Override slot="Item 6" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036269/IMG_0435_2_o5b6ga.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036269/IMG_0435_2_o5b6ga.jpg" />
-				<Override slot="Item 7" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036230/IMG_1018_2_agnajn.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036230/IMG_1018_2_agnajn.jpg" />
-				<Override slot="Item 8" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036198/502a9391_efgkpv.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036198/502a9391_efgkpv.jpg" />
-				<Override slot="Item 9" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036189/FB42AF9F-1CAA-45EC-B9E3-6CA451586307-2141-0000014444408EC5_bkbgml.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036189/FB42AF9F-1CAA-45EC-B9E3-6CA451586307-2141-0000014444408EC5_bkbgml.jpg" />
-				<Override slot="Item 10" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036179/IMG_3053_e41kdj.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036179/IMG_3053_e41kdj.jpg" />
-				<Override slot="Item 11" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036192/IMG_0884_nim1pt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036192/IMG_0884_nim1pt.jpg" />
+				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903130/IMG_0386_dxmx8w.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903130/IMG_0386_dxmx8w.jpg" />
+				<Override slot="Item 6" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037266/IMG_8109_bdmyqy.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759037266/IMG_8109_bdmyqy.jpg" />
+				<Override slot="Item 7" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036269/IMG_0435_2_o5b6ga.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036269/IMG_0435_2_o5b6ga.jpg" />
+				<Override slot="Item 8" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036230/IMG_1018_2_agnajn.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036230/IMG_1018_2_agnajn.jpg" />
+				<Override slot="Item 9" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036198/502a9391_efgkpv.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036198/502a9391_efgkpv.jpg" />
+				<Override slot="Item 10" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036189/FB42AF9F-1CAA-45EC-B9E3-6CA451586307-2141-0000014444408EC5_bkbgml.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036189/FB42AF9F-1CAA-45EC-B9E3-6CA451586307-2141-0000014444408EC5_bkbgml.jpg" />
+				<Override slot="Item 11" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783902932/IMG_0437_uagdia.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783902932/IMG_0437_uagdia.jpg" />
+				<Override slot="Item 12" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036179/IMG_3053_e41kdj.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036179/IMG_3053_e41kdj.jpg" />
+				<Override slot="Item 13" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036192/IMG_0884_nim1pt.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036192/IMG_0884_nim1pt.jpg" />
 			</Components.QuarklycommunityKitGallery>
 			<Components.QuarklycommunityKitGallery
 				phone-width="33%"
 				phone-display="block"
 				borderWidthProp="2"
 				columnsCountProp="1"
-				galleryItemNumbProp="12"
+				galleryItemNumbProp="13"
 				phone-margin="0px 0px 0px 2px"
 			>
 				<Override slot="Item 0" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760214142/373A0668_m7xy1x.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760214142/373A0668_m7xy1x.jpg" />
@@ -84,11 +88,12 @@ export default (() => {
 				<Override slot="Item 4" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036268/DSCF4529_but0zq.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036268/DSCF4529_but0zq.jpg" />
 				<Override slot="Item 5" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760213356/373A0881_2_yrgdt9.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760213356/373A0881_2_yrgdt9.jpg" />
 				<Override slot="Item 6" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036267/IMG_0153_ypdgmw.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036267/IMG_0153_ypdgmw.jpg" />
-				<Override slot="Item 7" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036237/IMG_3704_xfam8f.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036237/IMG_3704_xfam8f.jpg" />
-				<Override slot="Item 8" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036192/IMG_0884_nim1pt.jpg" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1760216164/grsg_3_yllivj.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760216164/grsg_3_yllivj.jpg" />
-				<Override slot="Item 9" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036188/IMG_1964_jaf4gf.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036188/IMG_1964_jaf4gf.jpg" />
-				<Override slot="Item 10" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036178/IMG_7430_q51ejf.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036178/IMG_7430_q51ejf.jpg" />
-				<Override slot="Item 11" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036176/DSCF4533_yyr2tg.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036176/DSCF4533_yyr2tg.jpg" />
+				<Override slot="Item 7" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903166/IMG_0429_fgxlw3.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1783903166/IMG_0429_fgxlw3.jpg" />
+				<Override slot="Item 8" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036237/IMG_3704_xfam8f.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036237/IMG_3704_xfam8f.jpg" />
+				<Override slot="Item 9" fullSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036192/IMG_0884_nim1pt.jpg" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1760216164/grsg_3_yllivj.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1760216164/grsg_3_yllivj.jpg" />
+				<Override slot="Item 10" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036188/IMG_1964_jaf4gf.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036188/IMG_1964_jaf4gf.jpg" />
+				<Override slot="Item 11" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036178/IMG_7430_q51ejf.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036178/IMG_7430_q51ejf.jpg" />
+				<Override slot="Item 12" fullSrcSet="https://res.cloudinary.com/dgan17f48/image/upload/v1759036176/DSCF4533_yyr2tg.jpg" previewSrc="https://res.cloudinary.com/dgan17f48/image/upload/v1759036176/DSCF4533_yyr2tg.jpg" />
 			</Components.QuarklycommunityKitGallery>
 		</Box>
 		<RawHtml>

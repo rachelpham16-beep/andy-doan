@@ -8082,7 +8082,7 @@ export default (() => {
 			phone-align-items="center"
 			phone-background="#000000"
 		>
-			<SocialMedia instagram="https://www.instagram.com/andydoanut/" linked-in="https://www.linkedin.com/in/andydoanut/">
+			<SocialMedia instagram="https://www.instagram.com/andydoanut?igsh=MTRjM2hzZGlkZTQwcQ==" linked-in="https://www.linkedin.com/in/andydoanut">
 				<Override
 					slot="link"
 					border-radius="50%"
@@ -8093,9 +8093,7 @@ export default (() => {
 					margin="0 8px"
 					phone-width="20px"
 					phone-height="20px"
-					phone-href="instagram.com/andydoanut/"
 					phone-target="_blank"
-					href="instagram.com/andydoanut/"
 				/>
 			</SocialMedia>
 		</Section>
